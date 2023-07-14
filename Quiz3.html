@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+	<h2>
+	다음 
+	<span style="background: peru;">내용에 맞게 입력</span>	
+	하시오<br><br>
+	전공 분야를 입력하세요
+	<img src="./resources/resources/images/l_aside.gif" align="right">
+	
+	
+	<select name= "전공분야" size="1" style="width: 100px; height: 30px; font-size: 10pt;">
+		<option>소프트웨어</option>
+		<option>컴퓨터공학</option>
+		<option>정보통신</option>
+	</select><br><br>
+	</h2>
+	<h3>
+	<form action = "Quiz2.html" method="get">
+	이름 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <input type="text" placeholder="이름을 넣어주세요"><br>
+	아이디 &nbsp;&nbsp;&nbsp;&nbsp;   <input type="text" placeholder="아이디를 넣어주세요"><br>
+	비밀번호 &nbsp; <input type="password" placeholder="비밀번호 넣어주세요"> <br>
+	
+	</h3>
+	<fieldset style="width: 600px; height: 50px;">
+		<legend>성별 조사</legend>
+		<label>여성</label>
+		<input type ="radio" name="gender" value="female">
+		<label>남성</label>
+		<input type ="radio" name="gender" value="male">
+	</fieldset>
+	<fieldset style="width: 600px; height: 50px;">
+		<legend>취미 조사</legend>
+		<input type="checkbox" name="hobby" value="책">
+		<label>책 읽기</label>
+		<input type="checkbox" name="hobby" value="공부">
+		<label>공부하기</label>
+		<input type="checkbox" name="hobby" value="책공부">
+		<label>책 읽으며 공부하기</label>
+		<input type="checkbox" name="hobby" value="컴퓨터">
+		<label>컴퓨터</label>
+		<input type="checkbox" name="hobby" value="컴퓨터책">
+		<label>컴퓨터하며 책 읽기</label>
+	</fieldset>
+	<fieldset style="width: 600px; height: 80px;">
+		<label>하고 싶은 말</label><br>
+		<textarea rows ="3" cols="70"></textarea name="소개" value="소개">
+	</fieldset>
+	<input type="submit" value="완료"><input type="reset" value="다시작성">
+	</form>
+	</section>
+	
+	
+		
+	
+	
+	
+
+</body>
+</html>
